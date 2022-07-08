@@ -2,3 +2,70 @@ body{
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+h4{
+  font-size: 18px;
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+}
+
+.header{
+  background-color: #1F2937;
+  padding: 5px 150px 100px 150px;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.navigation-left{
+  flex: 2;
+}
+.navigation-right{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+.navigation-button{
+  color: #E5E7EB;
+  transition: .4s;
+}
+.navigation-button:hover{
+  color: #AAAAAA;
+  transition: .4s;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+.hero-left {
+  flex: 1;
+}
+.hero-right {
+  flex: 1;
+  background-color: red;
+  margin-left: 100px;
+}
+.hero-description{
+  color: #E5E7EB;
+}
+.hero-button{
+  padding: 10px 20px;
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+}
