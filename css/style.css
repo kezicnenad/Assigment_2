@@ -78,3 +78,6 @@ button:hover{
   border: none;
   border-radius: 5px;
 }
+.information{
+  justify-content: center;
+}
