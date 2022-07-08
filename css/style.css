@@ -114,6 +114,7 @@ button:hover{
 }
 .quote-text{
   font-weight: 300;
+  line-height: 40px;
 }
 .quote-author{
   text-align: right;
