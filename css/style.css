@@ -4,7 +4,7 @@ body{
 }
 h1{
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 100;
   color: #F9FAF8;
 }
 h2{
@@ -71,6 +71,9 @@ button:hover{
   flex: 1;
   background-color: red;
   margin-left: 100px;
+}
+.hero-title{
+  font-weight: bolder;
 }
 .hero-description{
   color: #E5E7EB;
