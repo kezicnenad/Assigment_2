@@ -132,7 +132,7 @@ button:hover{
   font-weight: 900;
 }
 .action-title, .action-description{
-    line-height: 5px;
+    line-height: 18px;
 }
 .action-right{
   display: flex;
